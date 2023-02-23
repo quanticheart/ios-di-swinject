@@ -12,7 +12,7 @@ struct Amiibo:  Codable , Identifiable{
     let tail, type: String
     
     func load() {
-      print(">>>>> Downloading \(self.image) <<<<<")
+//      print(">>>>> Downloading \(self.image) <<<<<")
     }
     
 }

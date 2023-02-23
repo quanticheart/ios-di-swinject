@@ -17,10 +17,12 @@ class HomePresenter: ObservableObject{
     
     var router: HomeRouter
     var interector: HomeInterector
+    var test: CharacterListNetworkServicing
     
-    init(router: HomeRouter, interector:HomeInterector){
+    init(router: HomeRouter, interector:HomeInterector, test:CharacterListNetworkServicing){
         self.router = router
         self.interector = interector
+        self.test = test
     }
     
 }
