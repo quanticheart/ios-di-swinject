@@ -74,6 +74,7 @@
 		1B32482A29A7A19D00062315 /* View+onViewDidLoad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+onViewDidLoad.swift"; sourceTree = "<group>"; };
 		1B32482B29A7A19D00062315 /* View+isHidden.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+isHidden.swift"; sourceTree = "<group>"; };
 		1B32482C29A7A19D00062315 /* View+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Navigation.swift"; sourceTree = "<group>"; };
+		1B32483129A7A28200062315 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5D76AFAB48451B9304D43407 /* Pods_testswiject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testswiject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A27AFB4F27D26F2A0EDECC39 /* Pods-testswiject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testswiject.debug.xcconfig"; path = "Target Support Files/Pods-testswiject/Pods-testswiject.debug.xcconfig"; sourceTree = "<group>"; };
 		CE83CD2F95B0464416F3065E /* Pods-testswiject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testswiject.release.xcconfig"; path = "Target Support Files/Pods-testswiject/Pods-testswiject.release.xcconfig"; sourceTree = "<group>"; };
@@ -94,6 +95,7 @@
 		1B3247CA29A6C49B00062315 = {
 			isa = PBXGroup;
 			children = (
+				1B32483129A7A28200062315 /* README.md */,
 				1B3247D529A6C49B00062315 /* testswiject */,
 				1B3247D429A6C49B00062315 /* Products */,
 				53722A5A4005A8F61F0F11C3 /* Pods */,
