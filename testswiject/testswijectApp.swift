@@ -6,12 +6,13 @@
 //
 
 import SwiftUI
+import Swinject
 
 @main
 struct testswijectApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Container.homeContainer.resolve(HomeView.self)
         }
     }
 }

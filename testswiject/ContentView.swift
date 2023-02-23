@@ -6,21 +6,16 @@
 //
 
 import SwiftUI
+import Swinject
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        Container.homeContainer.resolve(HomeView.self, argument: 1)
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Container.homeContainer.resolve(HomeView.self, argument: 1)
     }
 }

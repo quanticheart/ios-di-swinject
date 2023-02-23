@@ -11,6 +11,22 @@
 		1B3247D929A6C49B00062315 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3247D829A6C49B00062315 /* ContentView.swift */; };
 		1B3247DB29A6C49E00062315 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B3247DA29A6C49E00062315 /* Assets.xcassets */; };
 		1B3247DE29A6C49E00062315 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B3247DD29A6C49E00062315 /* Preview Assets.xcassets */; };
+		1B32480329A6C8C400062315 /* DataExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3247E529A6C8C300062315 /* DataExt.swift */; };
+		1B32480529A6C8C400062315 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3247E829A6C8C300062315 /* LoadingView.swift */; };
+		1B32480629A6C8C400062315 /* amiibo.json in Resources */ = {isa = PBXBuildFile; fileRef = 1B3247EA29A6C8C300062315 /* amiibo.json */; };
+		1B32480729A6C8C400062315 /* AmiiboSimple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3247EE29A6C8C300062315 /* AmiiboSimple.swift */; };
+		1B32480829A6C8C400062315 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3247F029A6C8C300062315 /* HomePresenter.swift */; };
+		1B32480929A6C8C400062315 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3247F229A6C8C300062315 /* HomeView.swift */; };
+		1B32480A29A6C8C400062315 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3247F429A6C8C300062315 /* HomeInteractor.swift */; };
+		1B32480B29A6C8C400062315 /* Viagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3247F529A6C8C300062315 /* Viagem.swift */; };
+		1B32480C29A6C8C400062315 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3247F729A6C8C300062315 /* HomeRouter.swift */; };
+		1B32480D29A6C8C400062315 /* Amiibo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3247FA29A6C8C300062315 /* Amiibo.swift */; };
+		1B32480E29A6C8C400062315 /* DetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3247FC29A6C8C300062315 /* DetailsPresenter.swift */; };
+		1B32480F29A6C8C400062315 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B3247FE29A6C8C300062315 /* DetailView.swift */; };
+		1B32481029A6C8C400062315 /* DetailsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B32480029A6C8C300062315 /* DetailsInteractor.swift */; };
+		1B32481329A71DCF00062315 /* HomeDI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B32481229A71DCF00062315 /* HomeDI.swift */; };
+		1B32481529A72A9900062315 /* DetailsDI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B32481429A72A9900062315 /* DetailsDI.swift */; };
+		E9AC5F8482FC389BFEA2EBAD /* Pods_testswiject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D76AFAB48451B9304D43407 /* Pods_testswiject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +35,24 @@
 		1B3247D829A6C49B00062315 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1B3247DA29A6C49E00062315 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B3247DD29A6C49E00062315 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1B3247E529A6C8C300062315 /* DataExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataExt.swift; sourceTree = "<group>"; };
+		1B3247E829A6C8C300062315 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		1B3247EA29A6C8C300062315 /* amiibo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = amiibo.json; sourceTree = "<group>"; };
+		1B3247EE29A6C8C300062315 /* AmiiboSimple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmiiboSimple.swift; sourceTree = "<group>"; };
+		1B3247F029A6C8C300062315 /* HomePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		1B3247F229A6C8C300062315 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1B3247F429A6C8C300062315 /* HomeInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		1B3247F529A6C8C300062315 /* Viagem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Viagem.swift; sourceTree = "<group>"; };
+		1B3247F729A6C8C300062315 /* HomeRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		1B3247FA29A6C8C300062315 /* Amiibo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Amiibo.swift; sourceTree = "<group>"; };
+		1B3247FC29A6C8C300062315 /* DetailsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsPresenter.swift; sourceTree = "<group>"; };
+		1B3247FE29A6C8C300062315 /* DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		1B32480029A6C8C300062315 /* DetailsInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsInteractor.swift; sourceTree = "<group>"; };
+		1B32481229A71DCF00062315 /* HomeDI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDI.swift; sourceTree = "<group>"; };
+		1B32481429A72A9900062315 /* DetailsDI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsDI.swift; sourceTree = "<group>"; };
+		5D76AFAB48451B9304D43407 /* Pods_testswiject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testswiject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A27AFB4F27D26F2A0EDECC39 /* Pods-testswiject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testswiject.debug.xcconfig"; path = "Target Support Files/Pods-testswiject/Pods-testswiject.debug.xcconfig"; sourceTree = "<group>"; };
+		CE83CD2F95B0464416F3065E /* Pods-testswiject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testswiject.release.xcconfig"; path = "Target Support Files/Pods-testswiject/Pods-testswiject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9AC5F8482FC389BFEA2EBAD /* Pods_testswiject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +72,8 @@
 			children = (
 				1B3247D529A6C49B00062315 /* testswiject */,
 				1B3247D429A6C49B00062315 /* Products */,
+				53722A5A4005A8F61F0F11C3 /* Pods */,
+				CFF38C49AFC9E56A5627F47C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +88,8 @@
 		1B3247D529A6C49B00062315 /* testswiject */ = {
 			isa = PBXGroup;
 			children = (
+				1B3247E429A6C8C300062315 /* core */,
+				1B3247EB29A6C8C300062315 /* feature */,
 				1B3247D629A6C49B00062315 /* testswijectApp.swift */,
 				1B3247D829A6C49B00062315 /* ContentView.swift */,
 				1B3247DA29A6C49E00062315 /* Assets.xcassets */,
@@ -67,6 +106,156 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		1B3247E429A6C8C300062315 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				1B3247E529A6C8C300062315 /* DataExt.swift */,
+				1B3247E729A6C8C300062315 /* Components */,
+				1B3247E929A6C8C300062315 /* Assets */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		1B3247E729A6C8C300062315 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1B3247E829A6C8C300062315 /* LoadingView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		1B3247E929A6C8C300062315 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				1B3247EA29A6C8C300062315 /* amiibo.json */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		1B3247EB29A6C8C300062315 /* feature */ = {
+			isa = PBXGroup;
+			children = (
+				1B3247EC29A6C8C300062315 /* home */,
+				1B3247F829A6C8C300062315 /* details */,
+			);
+			path = feature;
+			sourceTree = "<group>";
+		};
+		1B3247EC29A6C8C300062315 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				1B3247ED29A6C8C300062315 /* entity */,
+				1B3247EF29A6C8C300062315 /* presenter */,
+				1B3247F129A6C8C300062315 /* view */,
+				1B3247F329A6C8C300062315 /* interactor */,
+				1B3247F629A6C8C300062315 /* router */,
+				1B32481229A71DCF00062315 /* HomeDI.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		1B3247ED29A6C8C300062315 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				1B3247EE29A6C8C300062315 /* AmiiboSimple.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		1B3247EF29A6C8C300062315 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				1B3247F029A6C8C300062315 /* HomePresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		1B3247F129A6C8C300062315 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				1B3247F229A6C8C300062315 /* HomeView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		1B3247F329A6C8C300062315 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				1B3247F429A6C8C300062315 /* HomeInteractor.swift */,
+				1B3247F529A6C8C300062315 /* Viagem.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		1B3247F629A6C8C300062315 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				1B3247F729A6C8C300062315 /* HomeRouter.swift */,
+			);
+			path = router;
+			sourceTree = "<group>";
+		};
+		1B3247F829A6C8C300062315 /* details */ = {
+			isa = PBXGroup;
+			children = (
+				1B3247F929A6C8C300062315 /* entity */,
+				1B3247FB29A6C8C300062315 /* presenter */,
+				1B3247FD29A6C8C300062315 /* view */,
+				1B3247FF29A6C8C300062315 /* interactor */,
+				1B32481429A72A9900062315 /* DetailsDI.swift */,
+			);
+			path = details;
+			sourceTree = "<group>";
+		};
+		1B3247F929A6C8C300062315 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				1B3247FA29A6C8C300062315 /* Amiibo.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		1B3247FB29A6C8C300062315 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				1B3247FC29A6C8C300062315 /* DetailsPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		1B3247FD29A6C8C300062315 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				1B3247FE29A6C8C300062315 /* DetailView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		1B3247FF29A6C8C300062315 /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				1B32480029A6C8C300062315 /* DetailsInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		53722A5A4005A8F61F0F11C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A27AFB4F27D26F2A0EDECC39 /* Pods-testswiject.debug.xcconfig */,
+				CE83CD2F95B0464416F3065E /* Pods-testswiject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CFF38C49AFC9E56A5627F47C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D76AFAB48451B9304D43407 /* Pods_testswiject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +263,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B3247E129A6C49E00062315 /* Build configuration list for PBXNativeTarget "testswiject" */;
 			buildPhases = (
+				D92FF1506D2AC841923C8961 /* [CP] Check Pods Manifest.lock */,
 				1B3247CF29A6C49B00062315 /* Sources */,
 				1B3247D029A6C49B00062315 /* Frameworks */,
 				1B3247D129A6C49B00062315 /* Resources */,
+				E4D3032F323BEB778614CD4A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +316,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B32480629A6C8C400062315 /* amiibo.json in Resources */,
 				1B3247DE29A6C49E00062315 /* Preview Assets.xcassets in Resources */,
 				1B3247DB29A6C49E00062315 /* Assets.xcassets in Resources */,
 			);
@@ -132,13 +324,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D92FF1506D2AC841923C8961 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-testswiject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4D3032F323BEB778614CD4A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-testswiject/Pods-testswiject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-testswiject/Pods-testswiject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-testswiject/Pods-testswiject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1B3247CF29A6C49B00062315 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B32480D29A6C8C400062315 /* Amiibo.swift in Sources */,
+				1B32481029A6C8C400062315 /* DetailsInteractor.swift in Sources */,
+				1B32481529A72A9900062315 /* DetailsDI.swift in Sources */,
 				1B3247D929A6C49B00062315 /* ContentView.swift in Sources */,
+				1B32480B29A6C8C400062315 /* Viagem.swift in Sources */,
+				1B32480929A6C8C400062315 /* HomeView.swift in Sources */,
+				1B32480729A6C8C400062315 /* AmiiboSimple.swift in Sources */,
+				1B32480A29A6C8C400062315 /* HomeInteractor.swift in Sources */,
+				1B32480529A6C8C400062315 /* LoadingView.swift in Sources */,
+				1B32480F29A6C8C400062315 /* DetailView.swift in Sources */,
+				1B32480829A6C8C400062315 /* HomePresenter.swift in Sources */,
+				1B32480329A6C8C400062315 /* DataExt.swift in Sources */,
 				1B3247D729A6C49B00062315 /* testswijectApp.swift in Sources */,
+				1B32480C29A6C8C400062315 /* HomeRouter.swift in Sources */,
+				1B32481329A71DCF00062315 /* HomeDI.swift in Sources */,
+				1B32480E29A6C8C400062315 /* DetailsPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +509,7 @@
 		};
 		1B3247E229A6C49E00062315 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A27AFB4F27D26F2A0EDECC39 /* Pods-testswiject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,6 +539,7 @@
 		};
 		1B3247E329A6C49E00062315 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE83CD2F95B0464416F3065E /* Pods-testswiject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
