@@ -38,6 +38,7 @@
 		1B32482E29A7A19D00062315 /* View+onViewDidLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B32482A29A7A19D00062315 /* View+onViewDidLoad.swift */; };
 		1B32482F29A7A19D00062315 /* View+isHidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B32482B29A7A19D00062315 /* View+isHidden.swift */; };
 		1B32483029A7A19D00062315 /* View+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B32482C29A7A19D00062315 /* View+Navigation.swift */; };
+		1BB4D9A029A957E90046CE00 /* DetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB4D99F29A957E90046CE00 /* DetailsRouter.swift */; };
 		E9AC5F8482FC389BFEA2EBAD /* Pods_testswiject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D76AFAB48451B9304D43407 /* Pods_testswiject.framework */; };
 /* End PBXBuildFile section */
 
@@ -75,6 +76,7 @@
 		1B32482B29A7A19D00062315 /* View+isHidden.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+isHidden.swift"; sourceTree = "<group>"; };
 		1B32482C29A7A19D00062315 /* View+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+Navigation.swift"; sourceTree = "<group>"; };
 		1B32483129A7A28200062315 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1BB4D99F29A957E90046CE00 /* DetailsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsRouter.swift; sourceTree = "<group>"; };
 		5D76AFAB48451B9304D43407 /* Pods_testswiject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testswiject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A27AFB4F27D26F2A0EDECC39 /* Pods-testswiject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testswiject.debug.xcconfig"; path = "Target Support Files/Pods-testswiject/Pods-testswiject.debug.xcconfig"; sourceTree = "<group>"; };
 		CE83CD2F95B0464416F3065E /* Pods-testswiject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testswiject.release.xcconfig"; path = "Target Support Files/Pods-testswiject/Pods-testswiject.release.xcconfig"; sourceTree = "<group>"; };
@@ -228,6 +230,7 @@
 		1B3247F829A6C8C300062315 /* details */ = {
 			isa = PBXGroup;
 			children = (
+				1BB4D9A129A95A020046CE00 /* router */,
 				1B3247F929A6C8C300062315 /* entity */,
 				1B3247FB29A6C8C300062315 /* presenter */,
 				1B3247FD29A6C8C300062315 /* view */,
@@ -299,6 +302,14 @@
 				1B32482C29A7A19D00062315 /* View+Navigation.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		1BB4D9A129A95A020046CE00 /* router */ = {
+			isa = PBXGroup;
+			children = (
+				1BB4D99F29A957E90046CE00 /* DetailsRouter.swift */,
+			);
+			path = router;
 			sourceTree = "<group>";
 		};
 		53722A5A4005A8F61F0F11C3 /* Pods */ = {
@@ -447,6 +458,7 @@
 				1B32480A29A6C8C400062315 /* HomeInteractor.swift in Sources */,
 				1B32481729A78DD300062315 /* ApplicationDI.swift in Sources */,
 				1B32482329A799A500062315 /* CharacterListNetworkService.swift in Sources */,
+				1BB4D9A029A957E90046CE00 /* DetailsRouter.swift in Sources */,
 				1B32480529A6C8C400062315 /* LoadingView.swift in Sources */,
 				1B32480F29A6C8C400062315 /* DetailView.swift in Sources */,
 				1B32480829A6C8C400062315 /* HomePresenter.swift in Sources */,

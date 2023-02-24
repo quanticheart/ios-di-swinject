@@ -19,7 +19,7 @@ struct HomeView: View {
                 NavigationView {
                 List(presenter.amiibosList, id: \.id) { amiibo in
                     NavigationLink(
-                        destination: presenter.router.goToDetails(tail: amiibo.tail)) {
+                        destination: presenter.router.goToDetails(tail: amiibo.tail, id:0)) {
                             Text("\(amiibo.amiiboSeries)  \(amiibo.name)")
                                 .onAppear(){amiibo.load()}
                                 .contextMenu() {
