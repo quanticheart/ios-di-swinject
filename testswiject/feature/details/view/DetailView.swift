@@ -7,6 +7,7 @@ struct DetailView: View {
     @ObservedObject var presenter: DetailsPresenter
     @State private var showMap = false
     let tail: String
+    var id: Int?
     
     var body: some View {
         LoadingView(status: presenter.amiibo == nil){

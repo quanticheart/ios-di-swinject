@@ -9,6 +9,10 @@ import Foundation
 import Swinject
 
 class HomeRouter{
+    func goToDetails(tail:String, id:Int?) -> DetailView {
+        return Container.detailsContainer.resolve(DetailView.self, arguments: tail, id)!
+    }
+    
     func goToDetails(tail:String) -> DetailView {
         return Container.detailsContainer.resolve(DetailView.self, argument: tail)!
     }
